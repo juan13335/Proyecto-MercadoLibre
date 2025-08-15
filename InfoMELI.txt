@@ -1,0 +1,20 @@
+8118831917005061
+eWOOQBL6aNCgWcSLFvFsfEkBEZOXak2h
+https://www.example.com/
+
+https://auth.mercadolibre.com.ar/authorization?response_type=code&client_id=8118831917005061
+&redirect_uri=https://www.example.com/
+
+code=TG-689a8b8b0951090001da9147-706453668
+
+{
+    "access_token": "APP_USR-8118831917005061-081120-16dee9e5e5b400f0ffe544f022e06227-706453668",
+    "token_type": "Bearer",
+    "expires_in": 21600,
+    "scope": "offline_access read urn:global:admin:users:/read-only urn:global:admin:users:/read-write urn:ml:mktp:ads:/read-write urn:ml:mktp:comunication:/read-write urn:ml:mktp:invoices:/read-write urn:ml:mktp:metrics:/read-only urn:ml:mktp:offers:/read-write urn:ml:mktp:orders-shipments:/read-write urn:ml:mktp:publish-sync:/read-write write",
+    "user_id": 706453668,
+    "refresh_token": "TG-689a8d7045d5df0001632b64-706453668"
+}
+
+706453668
+
