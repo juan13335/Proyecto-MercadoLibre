@@ -58,4 +58,4 @@ if __name__ == '__main__':
     access_token, refresh_token_actual = tokens["access_token"], tokens["refresh_token"]
     datos_productos = productos.payload
     obtener_refresh_token(refresh_token_actual)
-    publicar_producto(datos_productos, access_token)
+    #publicar_producto(datos_productos, access_token)
