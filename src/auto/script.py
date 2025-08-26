@@ -69,7 +69,7 @@ def publicar_producto(access_token):
 
         response = requests.post(url, json=datos_productos, headers=headers)
         if response.status_code == 201:
-            print(f"Producto publicado correctamente: {row["title"]}")   
+            print(f"Producto publicado correctamente: {row['title']}")   
             print(response.json())
         else:
             print(f"Producto no publicado, error: {response.status_code}")
@@ -85,9 +85,3 @@ def obtener_categorias(access_token):
     json_bonito = json.dumps(res.json(),indent=4)
     print(json_bonito)
 
-
-if __name__ == '__main__':
-    tokens = leer_tokens()
-    access_token, refresh_token_actual = tokens["access_token"], tokens["refresh_token"]
-    obtener_refresh_token(refresh_token_actual)
-    publicar_producto(datos_productos, access_token)
